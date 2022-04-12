@@ -1,3 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=New+Rocker&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shizuru&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shizuru&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=New+Rocker&family=Rubik+Glitch&family=Rubik+Moonrocks&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=New+Rocker&family=Rubik+Bubbles&family=Rubik+Glitch&family=Rubik+Moonrocks&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=New+Rocker&family=Rubik+Bubbles&family=Rubik+Glitch&family=Rubik+Moonrocks&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Black+Ops+One&family=New+Rocker&family=Rubik+Bubbles&family=Rubik+Glitch&family=Rubik+Moonrocks&family=Staatliches&display=swap');
 .App {
   text-align: center;
 }
@@ -36,3 +47,120 @@
     transform: rotate(360deg);
   }
 }
+/*NavContainer*/
+.NavContainer {
+  background-image: radial-gradient(
+    at top left,
+    #ffffff 33%,
+    #ffffff 53%,
+    #870c0c 83%
+  );
+}
+.imageLogo {
+  margin-left: 50px;
+}
+.line {
+  border-top: 1px solid #870c0c;
+  height: 5px;
+  padding: 0;
+  margin: 20px auto 0 auto;
+}
+/*---------*/
+/*Item*/
+.itemContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  width: 300px;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 15px;
+  z-index:-3;
+}
+.percentageContainer {
+  width: 70px;
+  background-color: crimson;
+  position: absolute;
+  margin-top: 1px;
+}
+.textPercentage {
+  margin-top: 15px;
+  font-size: small;
+  font-weight: bolder;
+  color: rgb(255, 255, 255);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.textLittle{
+font-size: small;  
+}
+.titleContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+.title {
+  font-size: large;
+  color: #970b0b;
+  font-family: 'Bebas Neue', cursive;
+}
+.priceContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.textPriceBefore {
+  margin-top: 10px;
+  font-size: larger;
+  font-weight: bolder;
+  color: rgb(0, 0, 0);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.textPrice {
+  margin-top: 10px;
+  font-size: larger;
+  font-weight: bolder;
+  color: crimson;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#btnDetails {
+  height: 8%;
+  margin-bottom: 15px;
+}
+#textLink {
+  text-decoration: none;
+  margin-right:15px ;
+}
+.text {
+  color: black;
+  font-size: larger;
+  text-decoration: none;
+  font-family: 'Bebas Neue', cursive;
+}
+/*----*/
+/*ItemList*/
+.spinnerContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  height: 500px;
+}
+/*----*/
+/*ItemListContainer*/
+.itemsContainer {
+
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+/*----------------*/
