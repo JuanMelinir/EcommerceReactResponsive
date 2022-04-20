@@ -49,12 +49,9 @@
 }
 /*NavContainer*/
 .NavContainer {
-  background-image: radial-gradient(
-    at top left,
-    #ffffff 33%,
-    #ffffff 53%,
-    #870c0c 83%
-  );
+
+  border-bottom-color: #133888;
+  border-bottom-width: 15px;
 }
 .imageLogo {
   margin-left: 50px;
@@ -157,10 +154,14 @@ font-size: small;
 /*----*/
 /*ItemListContainer*/
 .itemsContainer {
-
   max-width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 /*----------------*/
+.imageStar{
+margin-left: 5px;
+width:"0.6px"; 
+height:"0.5px";
+}

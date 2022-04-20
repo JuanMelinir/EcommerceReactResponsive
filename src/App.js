@@ -1,6 +1,7 @@
 import './App.css';
 import Navbar from './components/Navbar';
 import ItemListContainer from './components/ItemListContainer';
+import ItemDetailContainer from './components/ItemDetailContainer';
 import {BrowserRouter,Route,Routes} from 'react-router-dom'
 import CartContextProvider from './utils/CartContext'
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -13,6 +14,7 @@ function App() {
     <Routes>
       //TODO: Lista de todos los productos de nuestro ecommerce
       <Route path="/" element={<ItemListContainer/>}/>
+      <Route path="/item/:idItem" element={<ItemDetailContainer />}/>
       //TODO:filtra los productos por categoria 
       <Route path="/category/:idCategory" element={<ItemListContainer/>}/>
     </Routes>

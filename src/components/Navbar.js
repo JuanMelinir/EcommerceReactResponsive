@@ -24,8 +24,8 @@ function Navbar() {
                     <BurgerButton click={click} handleClick={handleClick} />
                 </div>
                 <BgDiv className={`initial ${click ? 'active' : ''}`}></BgDiv>
-                
             </NavContainer>
+            <div className='line'/>
         </>
 
     )
@@ -69,6 +69,7 @@ font-family: 'Black Ops One', cursive;
 position:initial;
 margin:0;
 margin-right:50px;
+margin-top:10px;
 .textLink{
 font-size:1.2rem;
 color:black;
